@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keletso Moloi | Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="navbar">
+      <nav>
+        <ul class="sidebar">
+          <li onclick="hideSideBar()"><i class="ri-close-large-line"></i></li>
+          <li onclick="hideSideBar()"><a href="#about">About</a></li>
+          <li onclick="hideSideBar()"><a href="#education">Education</a></li>
+          <li onclick="hideSideBar()"><a href="#certification">Certification</a></li>
+          <li onclick="hideSideBar()"><a href="#projects">Projects</a></li>
+          <li onclick="hideSideBar()"><a href="#contacts">Contacts</a></li>
+        </ul>
+        <ul>
+          <li class="hideOnMobile"><a href="#about">About</a></li>
+          <li class="hideOnMobile"><a href="#education">Education</a></li>
+          <li class="hideOnMobile"><a href="#certification">Certification</a></li>
+          <li class="hideOnMobile"><a href="#projects">Projects</a></li>
+          <li class="hideOnMobile"><a href="#contacts">Contacts</a></li>
+          <li class="menu-btn" onclick="showSideBar()"><i class="ri-menu-fill"></i></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="welcome-section">
+        <div id="weather-info">
+          <p>Fetching your location and weather...</p>
+        </div>
+        <h1>Hi 😊👋, <span>I'm Keletso Moloi</span></h1>
+        <p class="sub-title">Project Planner | Financial Analyst | System Support</p>
+        <img
+          src="./Keletso Moloi Pic.jpeg"
+          alt="Photo of Keletso Moloi"
+          class="my-pic"
+        />
+      </section>
+
+      <section id="about">
+        <h1>About</h1>
+        <p class="description">
+          I'm a detail-oriented and results-driven professional with a Diploma in Accountancy,
+          complemented by project management and technical support certifications. I enjoy applying
+          analytical thinking to financial and technical tasks and am passionate about using my skills
+          to contribute meaningfully in business and technology environments.
+        </p>
+        <div class="skills-container">
+          <div class="skills-tile">
+            <div class="tech-stack">
+              <h3 class="cert-name">Skills</h3>
+              <ul class="cert-list">
+                <li>Financial accounting & reporting</li>
+                <li>Budgeting & financial analysis</li>
+                <li>Project planning & execution</li>
+                <li>Microsoft Office (Excel, Word, PowerPoint)</li>
+                <li>Analytical & problem-solving</li>
+                <li>Attention to detail</li>
+              </ul>
+            </div>
+            <div class="skills">
+              <h3 class="cert-name">Languages</h3>
+              <ul class="cert-list">
+                <li>English (FAL)</li>
+                <li>Sesotho (Home Language)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education">
+        <h1>Education</h1>
+        <div class="education-container">
+          <div class="education-tile">
+            <h3 class="degree">Diploma in Accountancy</h3>
+            <p class="school">University of Johannesburg</p>
+            <p class="year">2024</p>
+          </div>
+          <div class="education-tile">
+            <h3 class="degree">National Senior Certificate</h3>
+            <p class="school">Zonkizizwe Secondary School</p>
+            <p class="year">2018</p>
+            <p class="current">Subjects included: Accounting, Economics, Business Studies, Life Orientation, English (FAL), Mathematical Literacy, Sesotho</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="certification">
+        <h1>Certifications</h1>
+        <div class="certification-container">
+          <div class="certification-tile">
+            <h3 class="cert-name">Additional Qualifications</h3>
+            <ul class="cert-list">
+              <li>Technical Support NQF Level 4 – Dynamic DNA</li>
+              <li>Project Management NQF Level 4 – Golden Opportunities</li>
+              <li>Contact Center Support Level 2 – SA Business School</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h1>Projects</h1>
+        <div class="project-container">
+          <p>Coming Soon — Stay tuned!</p>
+        </div>
+      </section>
+
+      <section id="contacts">
+        <h1>Contacts</h1>
+        <div class="contacts-container">
+          <h2>Want to connect?</h2>
+          <p>Reach out via email, phone or WhatsApp:</p>
+          <div class="contact-links">
+            <a href="mailto:keletso.m1999@gmail.com" target="_blank"><i class="ri-mail-line"></i> keletso.m1999@gmail.com</a>
+            <a href="tel:0682471449" target="_blank"><i class="ri-phone-fill"></i> 068 247 1449</a>
+            <a href="tel:0658768373" target="_blank"><i class="ri-phone-fill"></i> 065 876 8373 (WhatsApp)</a>
+            <a href="./docs/Keletso_Moloi_CV.pdf" download class="download-btn">📄 Download CV</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Keletso Moloi. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
